@@ -10,7 +10,6 @@ header {
     color: #b7ffff;
 }
 
-
 .image-head {
     font-family: fantasy;
 }
@@ -52,7 +51,6 @@ img {
     border-style: groove;
     border-width: 20px;
     border-color: #cf9bff;
-    /* border: white 5px; */
     margin: 0 2% auto;
     text-align: left;
     padding: 1.5%;
@@ -63,7 +61,6 @@ img {
     border-style: outset;
     border-width: 20px;
     border-color: #cf9bff;
-    /* border: solid white 5px; */
     margin: 0 2% auto;
     text-align: center;
     padding: 1.5%;
@@ -74,7 +71,6 @@ img {
     border-style:inset;
     border-width: 20px;
     border-color: #cf9bff;
-    /* border: solid white 5px; */
     margin: 0 2% auto;
     text-align: right;
     padding: 1.5%;
