@@ -1,56 +1,61 @@
 body {
     margin: 0;
-    background-color: rgb(0, 5, 27);
+    background-color: #adbcff;
     text-align: center;
 }
 
 header {
     font-size: 34px;
     font-family: 'Franklin Gothic Medium';
-    color: #b7ffff;
+    color: #16162f;
 }
 
 .image-head {
     font-family: fantasy;
 }
 
+/* Color inheritance on those 2 below */
 .disclaimer {
     font-size: 20px;
     font-style: italic;
-    color: aquamarine;
     /* Space outside , paddin inside*/
     margin: 0 20% auto;
-    background-color: black;
+    background-color: #b260ff;
 }
 
 .image-head {
-    color: #7ffbff;
     /* Space outside , paddin inside*/
     margin: 0 30% auto;
-    background-color: hsl(120, 67%, 1%);
+    background-color: #b260ff;
     font-size: 30px;
     font-family: 'Lucida Sans';
 }
 
 img {
     width: 80% auto;
-    border: 2px #900303 solid;
+    border: 2px hsl(0, 100%, 94%) solid;
     margin: 7px;
 }
 
 .my-options {
     margin: 20px;
     display: flex;
-    color: #cf9bff;
+    color: hsl(271, 100%, 28%);
     font-style: italic ;
     padding: 1.5%;
 }
 
 .option-1 {
     width: 27%;
-    border-style: groove;
-    border-width: 20px;
-    border-color: #cf9bff;
+    border-style:dotted;
+    /*groove kinda 3D, shadows on 4 sided*/
+    /* solid; Boooring*/
+    /* ridge; same as groove smh*/
+    /* double;  2 paralel lines*/
+    /* outset 3D shadows only below*/
+    /* inset 3D shadow only above*/
+    border-width: 17px;
+    border-color: rgb(255, 122, 237);
     margin: 0 2% auto;
     text-align: left;
     padding: 1.5%;
@@ -58,9 +63,9 @@ img {
 
 .option-2 {
     width: 27%;
-    border-style: outset;
+    border-style: dotted;
     border-width: 20px;
-    border-color: #cf9bff;
+    border-color: rgb(255, 122, 237);
     margin: 0 2% auto;
     text-align: center;
     padding: 1.5%;
@@ -68,16 +73,16 @@ img {
 
 .option-3 {
     width: 27%;
-    border-style:inset;
-    border-width: 20px;
-    border-color: #cf9bff;
+    border-style:dotted;
+    border-width: 17px;
+    border-color: rgb(255, 122, 237);
     margin: 0 2% auto;
     text-align: right;
     padding: 1.5%;
 }
 
 a {
-    color: wheat;
+    color: #9b46eb;
 }
 
 footer {
